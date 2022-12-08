@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="checkout page">
+    <script src="https://kit.fontawesome.com/ec12a3ffbb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Saira+Condensed:wght@500;700&display=swap" rel="stylesheet">   
+    <link href="css/style.css" rel="stylesheet">
+    <title>Træks | Checkout Successful</title>
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <div class="header__nav__top text-end">
+                <a class="pe-3" href="#">Help</a>
+                <a href="login.html" class="">LogIn</a>
+                <!-- <a href="signup.html">SignUp</a> -->
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand" href="index.html"><img class="nav__logo" src="images/logo_light-large.svg" alt="Træks logo and link to homepage"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 pt-4">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" aria-current="page" href="products.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="products.html">All Træks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="products.html">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="products.html">Women</a>
+                        </li>
+                        </ul>
+                        <form class="d-flex pt-3">
+                            <input class="search__products form-control me-2 rounded-pill border-none" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn text-white border-none" type="submit"><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+                            <span class="navbar-text">
+                                <a href="shopping-cart.html" class="shoppingcart__icon"><i class="fa-solid fa-cart-shopping fa-xl"><span class="cart__counter cart__total"></span></i></a>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="topPage">
+        <div class="main__content">
+            
+            <!-- <div class="hero__banner d-flex flex-md-row">
+                <div class="hero__logo__container">
+                    <img class="hero__logo--style" src="images/logo_light-large.svg" alt="Træks logo and link to homepage">
+                </div>
+
+            </div> -->
+            <div class="checout__container w-50 m-auto">
+                <h1 class="text-center mb-5">Checkout successful</h1>
+                <h6 class="text-center mb-5">Thank you! <br> Your new Træks is on its way to you.</h6>
+                <button onclick="location.href='index.html'" type="button" class="cta">Back to homepage</button>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center text-md-start">
+        <div class="my-5  d-flex flex-column flex-md-row justify-content-md-between footer__content gap-4">
+            <a class="navbar-brand" href="index.html"><img class="nav__logo" src="images/logo_light-large.svg" alt="Træks logo and link to homepage"></a>
+            <div class="footer__nav">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p class="mb-1 footer__contact__header">Contact info for Træks</p>
+                <p class="m-0">post@traeks.no</p>
+                <p class="m-0">+47 900 90 900</p>
+            </div>
+        </div>
+        <div class="footer__copyright text-center my-2">
+            Copyright &copy; Michelle Narverud 2022
+        </div>
+    </footer>
+
+    <script src="js/checkout.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

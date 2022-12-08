@@ -1,0 +1,21 @@
+.message {
+  border: 3px solid $color-grey;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 40px 80px;
+}
+
+.error {
+  border-color: $color-red;
+  background-color: $color-red;
+}
+
+.warning {
+  border-color: $color-orange;
+  background-color: $color-orange-light;
+}
+
+.success {
+  border-color: $color-green;
+  background-color: $color-green;
+}

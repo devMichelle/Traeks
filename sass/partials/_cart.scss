@@ -1,0 +1,17 @@
+.cart__thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.cart__description {
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart__summary {
+  min-width: 40vh;
+}

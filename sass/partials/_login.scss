@@ -1,0 +1,20 @@
+.login__container {
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.login__form {
+  margin-top: 40px;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.login__input input {
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}

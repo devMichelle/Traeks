@@ -1,0 +1,134 @@
+body {
+  font: $font-primary-text;
+  background-color: $color-white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header__content,
+.main__content {
+  max-width: 1350px;
+  margin: 0px auto !important;
+  padding: 10px 20px;
+}
+
+.footer__content {
+  max-width: 1350px;
+  margin: 50px auto !important;
+  padding: 10px 20px;
+}
+
+.main__content {
+  padding: 50px 20px 100px;
+}
+
+header,
+footer {
+  background-color: $color-grey;
+  color: $color-white;
+}
+
+.footer__contact__header {
+  font-weight: 500;
+}
+
+// ----------------------------------------------
+// Headings
+// ----------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headings;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 37px;
+}
+
+h4 {
+  font-size: 31px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+// ----------------------------------------------
+// Links
+// ----------------------------------------------
+
+.link {
+  color: $color-black;
+}
+
+.back__link {
+  display: block;
+  text-align: right;
+  margin: 50px 0px;
+  color: $color-black;
+}
+
+// ----------------------------------------------
+// Buttons
+// ----------------------------------------------
+
+.cta {
+  background-color: $color-orange;
+  width: 100%;
+  padding: 20px 0px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+
+.cta__clear {
+  background-color: $color-white;
+  border: 2px solid $color-orange;
+}
+
+.cta__small {
+  padding: 5px 0px;
+  margin: 8px 0px;
+}
+
+// ----------------------------------------------
+// Hover
+// ----------------------------------------------
+
+a:hover,
+.remove:hover {
+  font-weight: bold;
+  color: black;
+}
+
+.cta:hover {
+  background-color: $color-white;
+  border: 2px solid $color-orange;
+}
+
+.cta__clear:hover {
+  background-color: $color-orange-light;
+}

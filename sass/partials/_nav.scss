@@ -1,0 +1,40 @@
+.nav__logo {
+  height: 7vh;
+  padding-bottom: 8px;
+}
+
+.navbar-toggler-icon {
+  color: $color-white !important;
+}
+
+.header__nav__top a {
+  color: $color-white !important;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 19px;
+  padding: 0px 0px;
+  margin: 0px;
+}
+
+.nav-link:hover,
+.header__nav__top a:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.cart__counter {
+  background-color: $color-orange;
+  border-radius: 50%;
+  padding: 12px 8px;
+  margin: 0px;
+  font-size: 0.6em;
+  position: absolute;
+  right: -20px;
+  bottom: 15px;
+  display: none;
+}

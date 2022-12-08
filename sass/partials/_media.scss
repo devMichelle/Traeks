@@ -1,0 +1,53 @@
+@media (min-width: 900px) {
+  .nav__logo {
+    min-height: 10vh;
+  }
+
+  .hero__banner img {
+    width: 65%;
+  }
+
+  .hero__logo__container {
+    display: block;
+    width: 35%;
+    text-align: center;
+    padding-top: 20vh;
+    color: $color-white;
+  }
+
+  .hero__logo__container h1 {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  //
+  // Product details page
+  //
+
+  .product__img {
+    width: 60%;
+  }
+
+  .product__specifics {
+    width: 40%;
+  }
+
+  .product__img__thumbnail {
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .thumbnail {
+    max-height: 12vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero__logo__container h1 {
+    max-width: 400px;
+  }
+
+  .hero__logo__container {
+    padding-top: 30vh;
+  }
+}

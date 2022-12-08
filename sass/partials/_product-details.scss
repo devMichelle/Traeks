@@ -1,0 +1,21 @@
+.details__container {
+  gap: 50px;
+}
+
+.product__img__main {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.product__img__thumbnail {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.thumbnail {
+  max-height: 8vh;
+  width: 100px;
+}
