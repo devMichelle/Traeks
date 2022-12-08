@@ -4,11 +4,11 @@ Semester project 2
 ##### Grade: A
 ###### Marking criteria
 ###### - All functionality in Level 1 should be implemented.
-- The design should be coherent and provide a good user experience.
-- All the customer-facing and admin pages must be fully responsive.
-- Use appropriate names for Sass classes and folders.
-- All code should be properly formatted and arranged with sensible variable and function names.
-- Use modules (imports/exports) to organise your code.
+###### - The design should be coherent and provide a good user experience.
+###### - All the customer-facing and admin pages must be fully responsive.
+###### - Use appropriate names for Sass classes and folders.
+###### - All code should be properly formatted and arranged with sensible variable and function names.
+###### - Use modules (imports/exports) to organise your code.
 
 ## Description
 
